@@ -3759,3 +3759,13 @@
 
 // Disable servo with M282 to reduce power consumption, noise, and heat when not in use
 //#define SERVO_DETACH_GCODE
+
+// Paco
+
+#define BLTOUCH
+
+#define HAS_PIN_27_BOARD // Pin absurdo por herencia de la placa vieja
+#define NOZZLE_TO_PROBE_OFFSET {-35,-8,0} // a ojo
+#define Z_SAFE_HOMING
+
+#define NOZZLE_PARK_FEATURE   // para M600
