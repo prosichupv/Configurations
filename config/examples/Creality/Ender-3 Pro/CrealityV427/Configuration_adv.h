@@ -4776,3 +4776,16 @@
 
 // Shrink the build for smaller boards by sacrificing some serial feedback
 //#define MARLIN_SMALL_BUILD
+
+// Paco
+
+#define ADVANCED_PAUSE_FEATURE // para M600
+
+#define POWER_LOSS_RECOVERY
+     
+#define PROBE_OFFSET_WIZARD
+#define BABYSTEPPING
+#define BABYSTEP_DISPLAY_TOTAL
+#define BABYSTEP_ZPROBE_OFFSET
+ 
+#define HOST_ACTION_COMMANDS
