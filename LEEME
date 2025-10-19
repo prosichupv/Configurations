@@ -1,0 +1,7 @@
+Copiar la configuración Creality Ender 3 Pro v427 en el directorio "Marlin".
+
+En VSCode, instalar Auto Build Marlin y abrir el directorio padre de "Marlin".
+
+Build versión creality-256k.
+
+Poner el bin resultante en la SD y encender.
